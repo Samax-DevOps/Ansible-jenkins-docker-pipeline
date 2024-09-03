@@ -1,2 +1,2 @@
-FROM nginx
-COPY . /var/www/html
+FROM nginx:latesl
+COPY . /usr/share/nginx/html
